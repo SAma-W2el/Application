@@ -99,7 +99,7 @@
     Email.send({
         SecureToken: "287114da-df17-4e9d-8feb-7b04480a349f",
         To: 'samaw3317@gmail.com',
-        From: "samaw3317@gmail.com",
+        From: document.getElementById("email").value,
         Subject: "Application Form",
         Body: "First Name: " + document.getElementById("firstName").value +
             "<br> Last Name: " + document.getElementById("lastName").value +
