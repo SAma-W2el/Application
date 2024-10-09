@@ -65,7 +65,7 @@ input[type="date"] {
 .input{
     border-radius: 100px;  
     border: 1px solid #333;
-    width: 100%;              
+    width: 900%;              
     border-bottom: 2px solid #757882; 
     outline: none;             
     padding: 5px 0;
