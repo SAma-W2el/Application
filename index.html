@@ -14,7 +14,7 @@
             <img src="images/logo2.jpg" class="image" width="200" height="150">
         </div>
         <pre class="content">APPLICATION FOR EMPLOYMENT</pre>
-        <form id="dataForm" onsubmit="return sendEmail();">
+        <form id="dataForm" onsubmit="return sendEmail();" action="post">
             <label for="firstName" class="name"> First Name :</label><br>
             <input type="text" id="firstName" name="firstName" class="input" placeholder="Enter your first name" required><br><br>
 
@@ -135,7 +135,7 @@
 
     return false; // Prevent default form submission
 }
-
+     
     </script>
 </body>
 </html>
